@@ -5,7 +5,20 @@ description: Add a new blog post to the EmpowerDreams.org website — turning ra
 
 # Add a Blog Post to EmpowerDreams.org
 
-This skill captures the proven workflow for adding a new entry to the EmpowerDreams.org blog. The site is a static HTML site managed in a Git repo (`stopacar55/empower-dreams-website`). Each blog entry is a standalone HTML file in `/blog/`, plus a card on `/blog.html`.
+This skill captures the proven workflow for adding a new entry to the EmpowerDreams.org blog. The site is a static HTML site. Each blog entry is a standalone HTML file in `/blog/`, plus a card on `/blog.html`.
+
+## Which repo is which (verified 2026-08-26)
+
+- **Source of truth: the org repo `Empower-Dreams/empower-dreams-website`** (`main` branch).
+  **Netlify auto-deploys empowerdreams.org from it** — a merge to org `main` is live within
+  minutes. (The old `bsvor/empower-dreams-website` GitHub Pages setup is retired.)
+- **`stopacar55/empower-dreams-website` is Paul's fork** — feature branches (`pas/*`) are pushed
+  here (`origin` in the local clone; `upstream` points at the org repo).
+- **PRs target the org repo**, e.g.
+  `gh pr create --repo Empower-Dreams/empower-dreams-website --base main ...`
+  Paul can merge them himself under his **`stopacar29`** account, so publication is
+  self-service: branch → PR → Paul merges → Netlify deploys.
+- Start every change from current org main: `git fetch upstream` then branch off `upstream/main`.
 
 ## What you need from the user
 
@@ -198,6 +211,11 @@ A typical handoff message:
 > git diff blog.html blog/<slug>.html
 > ```
 > Tell me to proceed when you're ready and I'll stage, commit, and push.
+
+After the go-ahead: push the branch to `origin` (the fork) and open the PR **against the org
+repo** (`gh pr create --repo Empower-Dreams/empower-dreams-website --base main`). Remind Paul
+he can merge it himself as `stopacar29`, and that Netlify deploys the post to
+empowerdreams.org automatically once merged.
 
 ## Edge cases & gotchas
 
