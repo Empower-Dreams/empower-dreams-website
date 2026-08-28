@@ -45,6 +45,13 @@ Christ" (75 chars).
   screen, but request true vector/hi-res files from the designer before
   large-format print. The AI-generation sparkle watermark was removed from
   the derived variants; the two original files still carry it.
+- **Icon-only assets** (the "Solar Horizon" mark without the wordmark):
+  `EmpowerDreamsIcon.png` (transparent orange, 420px) for general small-space
+  use; `EmpowerDreamsIconTile-OrangeOnCream.png` and
+  `EmpowerDreamsIconTile-WhiteOnCharcoal.png` (640px squares, circle-crop
+  safe) for **profile pictures / avatars on any platform** — TikTok uses the
+  orange-on-cream tile as of 2026-08-28; use the same for Facebook,
+  Instagram, LinkedIn, and YouTube avatars for a consistent presence.
 - **Clear space:** ≥ the height of the "E" in EMPOWER on all sides — no
   text, graphics, borders, or screen edges inside it.
 - **Minimum size:** 120 px wide on screen; 1.25 in (32 mm) in print.
