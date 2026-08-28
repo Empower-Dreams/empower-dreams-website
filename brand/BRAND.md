@@ -6,6 +6,15 @@ image work can conform without re-reading the PDF. The PDF is authoritative.
 update here first; synced copies live in downstream projects (e.g. the
 EDSocialMedia repo's `brand/`).
 
+## Vision
+
+> Identify, nurture, and resource highly effective discipleship and
+> evangelism partnerships to grow the body of Christ.
+
+Approved short form (fits 80-char social bios; live on TikTok 2026-08-28):
+"Nurturing discipleship & evangelism partnerships to grow the body of
+Christ" (75 chars).
+
 ## Colors
 
 | Name | Hex | RGB | Use |
@@ -27,8 +36,15 @@ EDSocialMedia repo's `brand/`).
 - **Variants:** (A) full-color — flagship, for light backgrounds;
   (B) solid white — dark backgrounds/photo overlays; (C) solid black —
   single-color print only; (D) solid orange — watermarks/merch.
-  Files here: `EmpowerDreamsColorLogo.jpeg` (A), `EmpowerDreamsWhiteLogo.png`
-  (B). Black and orange variants not yet in hand — request if needed.
+  Files here: `EmpowerDreamsColorLogo.jpeg` (A, cream bg),
+  `EmpowerDreamsWhiteLogoTransparent.png` (B, transparent — use this for
+  overlays; `EmpowerDreamsWhiteLogo.png` is the same mark baked on black),
+  `EmpowerDreamsBlackLogo.png` (C, transparent),
+  `EmpowerDreamsOrangeLogo.png` (D, transparent). B/C/D were derived
+  2026-08-28 from the white source at its native 320x128 px — fine on
+  screen, but request true vector/hi-res files from the designer before
+  large-format print. The AI-generation sparkle watermark was removed from
+  the derived variants; the two original files still carry it.
 - **Clear space:** ≥ the height of the "E" in EMPOWER on all sides — no
   text, graphics, borders, or screen edges inside it.
 - **Minimum size:** 120 px wide on screen; 1.25 in (32 mm) in print.
