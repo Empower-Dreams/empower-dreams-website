@@ -524,6 +524,21 @@ h1, h2, h3, h4 {
     font-size: clamp(1.75rem, 3vw, 2.25rem);
 }
 
+.update-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.update-image img {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-md);
+    display: block;
+}
+
 /* --- Stories Grid --- */
 .stories-section {
     background: var(--color-bg-warm);
